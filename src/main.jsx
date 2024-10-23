@@ -3,10 +3,9 @@ import { createRoot } from 'react-dom/client'
 import App from './App'
 import './index.css'
 import './App.css'
-import "./components/Profile.css"
-import "./components/FriendList.css"
-import "./components/TransactionHistory.css"
-
+import "./components/FriendList/FriendList"
+import "./components/Profile/Profile"
+import "./components/TransactionHistory/TransactionHistory"
 
 
 createRoot(document.getElementById('root')).render(

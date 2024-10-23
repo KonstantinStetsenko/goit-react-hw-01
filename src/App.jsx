@@ -1,10 +1,10 @@
-
-import Profile from './components/Profile';
+import React from 'react';
+import Profile from './components/Profile/Profile.jsx';
 import userData from './userData.json'
 import friends from"./friends.json"
-import FriendList from './components/FriendList';
+import FriendList from './components/FriendList/FriendList.jsx';
 import transactions from "./transactions.json"
-import TransactionHistory from "./components/TransactionHistory"
+import TransactionHistory from "./components/TransactionHistory/TransactionHistory.jsx"
 
 console.log(friends)
 

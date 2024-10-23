@@ -27,10 +27,10 @@
 
   border-top: 2px solid rgb(159, 159, 159);
 }
-.img-profile {
+.imgProfile {
   width: 100px;
 }
-.item-list {
+.itemList {
   box-sizing: content-box;
   display: flex;
   flex-direction: column;
@@ -55,7 +55,7 @@
   font-size: 18px;
   margin-bottom: 10px;
 }
-.name-profile {
+.nameProfile {
   font-size: 24px;
   font-style: normal;
   color: black;
@@ -69,7 +69,7 @@
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
 }
-.location-profile {
+.locationProfile {
   font-size: 20px;
   font-style: normal;
   color: rgb(110, 110, 110);

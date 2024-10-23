@@ -1,4 +1,4 @@
-import React from 'react';
+
 import css from "./TransactionHistory.module.css"
 import clsx from "clsx";
 export default function transactions({ items }) {

@@ -1,0 +1,36 @@
+.title {
+  width: 250px;
+}
+.tableDataType,
+.titleType {
+  padding-left: 80px;
+  padding-right: 40px;
+  text-align: left;
+}
+.titleTable {
+  background-color: black;
+}
+.titleType,
+.title {
+  color: white;
+}
+.list:nth-child(2n) {
+  background-color: rgb(156, 156, 156);
+}
+.list {
+  border: 1px solid gray;
+}
+table {
+  border: 1px solid gray;
+  border-collapse: collapse;
+  margin-top: 80px;
+}
+th,
+td {
+  border: 1px solid #ddd; 
+  padding: 8px; 
+  text-align: center;
+
+th {
+  background-color: #181818; 
+}

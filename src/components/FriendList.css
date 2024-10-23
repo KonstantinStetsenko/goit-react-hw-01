@@ -1,0 +1,28 @@
+.friendUL {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 80px;
+  margin-left: 0;
+  padding: 0;
+}
+.friendLi {
+  border: 1.5px solid black;
+  border-radius: 6px;
+  text-decoration: none;
+  list-style-type: none;
+  width: 200px;
+  padding: 10px;
+}
+.imgFriend {
+  width: 100%;
+}
+.name {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 600px;
+}
+.status {
+  font-size: 20px;
+  font-weight: 500;
+}

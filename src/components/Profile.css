@@ -1,0 +1,78 @@
+.cardStore {
+  border: 3px solid black;
+  border-radius: 6px;
+  width: 400px;
+  height: 500px;
+  background-color: rgb(237, 237, 237);
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+.listData {
+  box-sizing: border-box;
+  background-origin: padding-box;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 0px;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+  bottom: 0;
+  left: 0;
+
+  border-top: 2px solid rgb(159, 159, 159);
+}
+.img-profile {
+  width: 100px;
+}
+.item-list {
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  width: calc((100% - 0px) / 3);
+  border: 2px solid rgb(159, 159, 159);
+  border-top: none;
+  border-bottom: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.item-list:first-child {
+  border-left: none;
+  border-right: none;
+}
+
+.item-list:last-child {
+  border-left: none;
+  border-right: none;
+}
+.titleData {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.name-profile {
+  font-size: 24px;
+  font-style: normal;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+.tagProfile {
+  font-size: 20px;
+  font-style: normal;
+  color: rgb(110, 110, 110);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+.location-profile {
+  font-size: 20px;
+  font-style: normal;
+  color: rgb(110, 110, 110);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}

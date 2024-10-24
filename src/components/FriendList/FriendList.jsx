@@ -1,4 +1,4 @@
-import clsx from "clsx";
+
 import css from "./FriendList.module.css";
 
 export default function FriendList({ friends }) {
@@ -6,7 +6,7 @@ export default function FriendList({ friends }) {
     <ul className={css.friendUL}>
       {friends.map((friend) => {
         return (
-          <li className={clsx(css.friendLi)} key={friend.id}>
+          <li className={css.friendLi} key={friend.id}>
             <img
               className={css.imgFriend}
               src={friend.avatar}

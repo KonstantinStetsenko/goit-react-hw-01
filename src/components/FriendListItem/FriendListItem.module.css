@@ -1,0 +1,12 @@
+.imgFriend {
+  width: 100%;
+}
+.name {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 600px;
+}
+.status {
+  font-size: 20px;
+  font-weight: 500;
+}

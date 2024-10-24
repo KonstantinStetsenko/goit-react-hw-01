@@ -1,5 +1,4 @@
 import clsx from "clsx";
-import React from "react";
 import css from "./FriendList.module.css";
 
 export default function FriendList({ friends }) {
